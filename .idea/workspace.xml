@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d1d2f94-e095-4c4d-b660-fed987807a51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/a/Fu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/b/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/b/Zi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/myextends/ExtendsDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/myextends/ExtendsDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/myextends/constructor/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/test/Coder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/test/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/test/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/test/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/test/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/test/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/test/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/myfinal/FinalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/this_super/SuperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01-code/src/com/itheima/this_super/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day01-code/com/itheima/myextends/ExtendsDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day01-code/com/itheima/myextends/ExtendsDemo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day01-code/com/itheima/myextends/Fu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day01-code/com/itheima/myextends/Fu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day01-code/com/itheima/myextends/Zi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day01-code/com/itheima/myextends/Zi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +42,15 @@
     "Application.ExtendsDemo3 (1).executor": "Run",
     "Application.ExtendsDemo3.executor": "Run",
     "Application.ExtendsDemo4.executor": "Run",
+    "Application.FinalDemo.executor": "Run",
     "Application.StaticDemo1.executor": "Run",
     "Application.StaticDemo2.executor": "Run",
+    "Application.SuperTest.executor": "Run",
     "Application.Test (1).executor": "Debug",
     "Application.Test (2).executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Test1.executor": "Run",
+    "Application.Test2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -70,13 +59,26 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test2">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.myextends.constructor.Test" />
+  <component name="RunManager" selected="Application.FinalDemo">
+    <configuration name="FinalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.myfinal.FinalDemo" />
       <module name="day01-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.myextends.constructor.*" />
+          <option name="PATTERN" value="com.itheima.myfinal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.this_super.SuperTest" />
+      <module name="day01-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.this_super.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,19 +87,6 @@
       </method>
     </configuration>
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.myextends.constructor.Test" />
-      <module name="day01-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.myextends.constructor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itheima.myextends.constructor.Test" />
       <module name="day01-code" />
       <extension name="coverage">
@@ -138,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinalDemo" />
+        <item itemvalue="Application.SuperTest" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
