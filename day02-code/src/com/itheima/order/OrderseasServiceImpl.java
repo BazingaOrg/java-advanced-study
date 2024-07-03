@@ -1,7 +1,9 @@
 package com.itheima.order;
 
 public class OrderseasServiceImpl implements OrderService {
-
+    public  void checkIP() {
+        System.out.println("国外业务 --- 检查IP");
+    }
     @Override
     public void create() {
         System.out.println("国外业务 --- 创建订单");
