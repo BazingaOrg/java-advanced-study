@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d1d2f94-e095-4c4d-b660-fed987807a51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day02-code/src/com/itheima/test/BankcardPaymentImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02-code/src/com/itheima/test/CreditCardPaymentImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02-code/src/com/itheima/test/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02-code/src/com/itheima/test/PlatformPaymentImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02-code/src/com/itheima/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03-code/day03-code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03-code/src/com/itheima/block/BlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03-code/src/com/itheima/inner/AnonClassTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03-code/src/com/itheima/inner/InnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03-code/src/com/itheima/inner/LocalClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03-code/src/com/itheima/inner/StaticInnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03-code/src/com/itheima/minterface/jdk8/InterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03-code/src/com/itheima/minterface/jdk9/InterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +29,14 @@
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -38,6 +48,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnonClassTest1.executor": "Run",
+    "Application.BlockTest.executor": "Run",
     "Application.ExtendsDemo1.executor": "Run",
     "Application.ExtendsDemo2 (1).executor": "Run",
     "Application.ExtendsDemo2 (2).executor": "Run",
@@ -46,6 +58,8 @@
     "Application.ExtendsDemo3.executor": "Run",
     "Application.ExtendsDemo4.executor": "Run",
     "Application.FinalDemo.executor": "Run",
+    "Application.InnerTest.executor": "Run",
+    "Application.InterfaceTest.executor": "Run",
     "Application.StaticDemo1.executor": "Run",
     "Application.StaticDemo2.executor": "Run",
     "Application.SuperTest.executor": "Run",
@@ -64,7 +78,7 @@
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/zhangyouxiu/Downloads/Code/bilibili/Java/Advanced-Codes/day02-code/src/com/itheima/polymorphism",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,13 +86,13 @@
       <recent name="$PROJECT_DIR$/day02-code/src/com/itheima/polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.itheima.test.Test">
-    <configuration name="ExtendsDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.myextends.ExtendsDemo3" />
-      <module name="day01-code" />
+  <component name="RunManager" selected="Application.AnonClassTest1">
+    <configuration name="AnonClassTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.inner.AnonClassTest1" />
+      <module name="day03-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.myextends.*" />
+          <option name="PATTERN" value="com.itheima.inner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.c.Test" />
-      <module name="day02-code" />
+    <configuration name="BlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.block.BlockTest" />
+      <module name="day03-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.c.*" />
+          <option name="PATTERN" value="com.itheima.block.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.itheima.myextends.constructor.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.myextends.constructor.Test" />
-      <module name="day01-code" />
+    <configuration name="InnerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.inner.InnerTest" />
+      <module name="day03-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.myextends.constructor.*" />
+          <option name="PATTERN" value="com.itheima.inner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.itheima.order.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.order.Test" />
-      <module name="day02-code" />
+    <configuration name="InterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.minterface.jdk8.InterfaceTest" />
+      <module name="day03-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.order.*" />
+          <option name="PATTERN" value="com.itheima.minterface.jdk8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonClassTest1" />
+        <item itemvalue="Application.InnerTest" />
+        <item itemvalue="Application.BlockTest" />
+        <item itemvalue="Application.InterfaceTest" />
         <item itemvalue="Application.com.itheima.test.Test" />
-        <item itemvalue="Application.com.itheima.order.Test" />
-        <item itemvalue="Application.ExtendsDemo3" />
-        <item itemvalue="Application.com.itheima.myextends.constructor.Test" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
