@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d1d2f94-e095-4c4d-b660-fed987807a51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/bigdecimal/BigDecimalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/math/MathDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/object/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/object/equals/EqualsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/system/SystemDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/integer/IntegerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/integer/IntegerMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/integer/IntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/integer/Interview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day05-code/com/itheima/bigdecimal/BigDecimalDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day05-code/com/itheima/bigdecimal/BigDecimalDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,9 @@
     "Application.ExtendsDemo4.executor": "Run",
     "Application.FinalDemo.executor": "Run",
     "Application.InnerTest.executor": "Run",
+    "Application.IntegerDemo.executor": "Run",
+    "Application.IntegerMethodDemo.executor": "Run",
+    "Application.IntegerTest.executor": "Run",
     "Application.InterfaceTest.executor": "Run",
     "Application.JButtonTest.executor": "Run",
     "Application.JFrameTest.executor": "Run",
@@ -93,7 +96,7 @@
       <recent name="$PROJECT_DIR$/day02-code/src/com/itheima/polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BigDecimalDemo">
+  <component name="RunManager" selected="Application.IntegerTest">
     <configuration name="BigDecimalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itheima.bigdecimal.BigDecimalDemo" />
       <module name="day05-code" />
@@ -107,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.object.equals.EqualsDemo" />
+    <configuration name="IntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.integer.IntegerDemo" />
       <module name="day05-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.object.equals.*" />
+          <option name="PATTERN" value="com.itheima.integer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.math.MathDemo" />
+    <configuration name="IntegerMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.integer.IntegerMethodDemo" />
       <module name="day05-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.math.*" />
+          <option name="PATTERN" value="com.itheima.integer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.integer.IntegerTest" />
+      <module name="day05-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.integer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,26 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.object.tostring.ToStringDemo" />
-      <module name="day05-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.object.tostring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerTest" />
+        <item itemvalue="Application.IntegerMethodDemo" />
+        <item itemvalue="Application.IntegerDemo" />
         <item itemvalue="Application.BigDecimalDemo" />
         <item itemvalue="Application.SystemDemo" />
-        <item itemvalue="Application.MathDemo" />
-        <item itemvalue="Application.EqualsDemo" />
-        <item itemvalue="Application.ToStringDemo" />
       </list>
     </recent_temporary>
   </component>
