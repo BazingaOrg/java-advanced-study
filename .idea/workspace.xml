@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d1d2f94-e095-4c4d-b660-fed987807a51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/integer/IntegerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/integer/IntegerMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/integer/IntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05-code/src/com/itheima/integer/Interview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06-code/day06-code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06-code/src/com/itheima/arrays/ArraysDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06-code/src/com/itheima/arrays/test/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06-code/src/com/itheima/arrays/test/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06-code/src/com/itheima/arrays/test/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day05-code/com/itheima/bigdecimal/BigDecimalDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day05-code/com/itheima/bigdecimal/BigDecimalDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +49,11 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AnonClassTest1.executor": "Run",
+    "Application.ArraysDemo.executor": "Run",
     "Application.BigDecimalDemo.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
     "Application.BlockTest.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
     "Application.EqualsDemo.executor": "Run",
     "Application.ExtendsDemo1.executor": "Run",
     "Application.ExtendsDemo2 (1).executor": "Run",
@@ -68,6 +72,7 @@
     "Application.JFrameTest.executor": "Run",
     "Application.JLabelTest.executor": "Run",
     "Application.MathDemo.executor": "Run",
+    "Application.SelectSort.executor": "Run",
     "Application.StaticDemo1.executor": "Run",
     "Application.StaticDemo2.executor": "Run",
     "Application.SuperTest.executor": "Run",
@@ -96,13 +101,13 @@
       <recent name="$PROJECT_DIR$/day02-code/src/com/itheima/polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntegerTest">
-    <configuration name="BigDecimalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.bigdecimal.BigDecimalDemo" />
-      <module name="day05-code" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="ArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.arrays.ArraysDemo" />
+      <module name="day06-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.bigdecimal.*" />
+          <option name="PATTERN" value="com.itheima.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.integer.IntegerDemo" />
-      <module name="day05-code" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.BinarySearch" />
+      <module name="day06-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.integer.*" />
+          <option name="PATTERN" value="com.itheima.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.integer.IntegerMethodDemo" />
-      <module name="day05-code" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.BubbleSort" />
+      <module name="day06-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.integer.*" />
+          <option name="PATTERN" value="com.itheima.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.system.SystemDemo" />
-      <module name="day05-code" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.SelectSort" />
+      <module name="day06-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.system.*" />
+          <option name="PATTERN" value="com.itheima.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.SelectSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.ArraysDemo" />
         <item itemvalue="Application.IntegerTest" />
-        <item itemvalue="Application.IntegerMethodDemo" />
-        <item itemvalue="Application.IntegerDemo" />
-        <item itemvalue="Application.BigDecimalDemo" />
-        <item itemvalue="Application.SystemDemo" />
       </list>
     </recent_temporary>
   </component>
